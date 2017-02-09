@@ -1,4 +1,3 @@
-
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -8,7 +7,7 @@ module.exports = function(grunt) {
 	concat: {
 	    dist: {
 	      src: ['src/js/bootstrap.js'],
-	      dest: 'dist/js/main.min.js',
+	      dest: 'dist/js/bootstrap.min.js',
 	    },
 	  },
 
@@ -20,7 +19,7 @@ module.exports = function(grunt) {
               sourcemap: 'none',
           },
           files: {
-            'dist/js/main.min.js': ['src/js/main.js']
+            'dist/js/bootstrap.min.js': ['src/js/bootstrap.js']
           }
         }
       },
@@ -61,7 +60,7 @@ module.exports = function(grunt) {
         tasks: ['sass']
       },
       js: {
-        files: 'src/js/main.js'
+        files: 'src/js/bootstrap.js'
       }
     },
 
