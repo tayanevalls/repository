@@ -1,2 +1,3 @@
 # repository
-Meu primeiro projeto : )
+Meu primeiro projeto ❤️
+My first project ❤️
